@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sao_nicolau">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sao_Nicolau">
+        <activity
+            android:name=".FaunaFloraImages"
+            android:exported="false" />
+        <activity
+            android:name=".ForestImages"
+            android:exported="false" />
+        <activity
+            android:name=".BeachImages"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdVideo"
+            android:exported="false" />
+        <activity
+            android:name=".SecondVideo"
+            android:exported="false" />
+        <activity
+            android:name=".FirstVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenWebView"
+            android:exported="true" />
+        <activity
+            android:name=".ChooseVideo"
+            android:exported="true" />
+        <activity
+            android:name=".ChooseImageType"
+            android:exported="true" />
+        <activity
+            android:name=".ChooseScreen"
+            android:exported="true" />
+        <activity
+            android:name=".InitialScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
